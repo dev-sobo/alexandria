@@ -31,4 +31,5 @@
     <string name="onAttachError">Activity must implement NavigationDrawerCallbacks.</string>
     <string name="ISBNStartingNumber" translatable = "false">978</string>
     <string name="emptyString" translatable = "false"> </string>
+    <string name="networkError">Network error. Check your connection.</string>
 </resources>

@@ -168,7 +168,7 @@ public class BookService extends IntentService {
                 mMainThreadHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        Toast.makeText(BookService.this, "Network error. Check your connection.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(BookService.this, R.string.networkError, Toast.LENGTH_LONG).show();
                     }
                 });
 
